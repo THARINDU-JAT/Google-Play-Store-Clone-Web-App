@@ -1,0 +1,14 @@
+when we are discussing about the software behaviaral patterns. we can use those techniques to improve the qulaity of our software. we can use this software behavioral patterns to manage the responsibilities between the objects. in these design patterns there should be easy methods to communicate two methods while they working about there responsibilities. that means we should ave to design our software to inrterconnect the software and the client. read below for the some examples for the software behavioral patterns. 
+
+null object
+this null objects are using to reppresent the not available data. as an example consider about the above library management s system and there is books registerd with 1-1000 ids. then if anyone searching for books with id if any one entered and id number such as 1200 or something in database there is no any record with 1200 id then software should be display an error message which is asying there is no any book with this number. also as an another example consider about a software interface which is showing moving color balls. when we are creating this kinfd of software interface we should have to create a claass to balls and another class to move the balls. in that case consider if you want to write a program to stop the balls at time you can use this null class to stop th moving. in that case we don't need any codings we should have to run a null calss when stop button clicks. that is a besty example for the null classes.
+ 
+this null classes are implemnted as a singelton. also there is no any states iside of the null class object. if any user want one object do nothing in several times then they should ahve to implement several null classes. 
+singleton pattern
+usually when we are creating a programme we are always creating objects for each an ever action but in this singleton pattern we are not creating single objecrts for single action we should have to create the class and run the class. most of the software behavioral patterns are based on this singleton pattern such as the above explained null object class. when we are creating this class objects we should have to contain the code inside of the public ctatic metrhod and wehn user requesting each serbice this methos will give the access for each requested service.
+as an example consider abou a POS system
+
+
+
+
+radle sync failed: Could not find method implementation() for arguments [com.google.firebase:firebase-analytics] on project ':app' of type org.gradle.api.Project.

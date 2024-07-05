@@ -1,0 +1,9 @@
+ $aVar = mysqli_connect('sql306.byethost33.com','b33_28330093','sjc2015grade10','b33_28330093_online_shop');
+
+
+
+
+$servername = "sql306.byethost33.com";
+		$username = "b33_28330093";
+		$password = "sjc2015grade10";
+		$dbname = "b33_28330093_online_shop";
